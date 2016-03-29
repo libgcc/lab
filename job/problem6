@@ -1,0 +1,32 @@
+ff:
+“thee” should be changed to “you”  
+“thou” should be changed to “you”  
+
+points2D:
+x1  y1  x2  y2 
+0.0   0.0   0.0   0.0  
+
+problem1.awk:
+# ECE 2524 Homework 4  Problem  1  Jane Doe
+BEGIN{FS=":";OFS="\t";}{print $3,$1}
+
+problem2.awk:
+# ECE 2524 Homework 4  Problem  1  Jane Doe
+BEGIN{FS=":";OFS="\t";}{print $7}
+
+problem3.sed:
+# ECE 2524 Homework 4  Problem  1  Jane Doe
+s/^\([^:]\+\).*:\([^:]\+\)$/\1\t\2/
+
+problem4.awk:
+# ECE 2524 Homework 4  Problem  1  Jane Doe
+{
+
+problem5.sed:
+# ECE 2524 Homework 4  Problem  1  Jane Doe
+s/\<thee\>/you/g;
+
+problem6.sh:
+#!/bin/bash
+# ECE 2524 Homework 4  Problem  1  Jane Doe 
+
